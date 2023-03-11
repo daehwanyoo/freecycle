@@ -33,7 +33,7 @@ loginBtn.addEventListener('click', function(event) {
 
 	if (userExists) {
 		alert('Login successful!');
-		// Redirect to dashboard or home page
+		window.location.href = 'landing.html';
 	} else {
 		const signup = confirm('User not found. Do you want to sign up?');
 		if (signup) {
