@@ -14,6 +14,7 @@ FreeCycle's mission is to make create a better and healthier future. We believe 
 ## How we built it
 
 ## Challenges we ran into
+We faced many challenges while creating Free Cycle. Our main challenge were implementing API, using a database on a website, and integrating a Google authentication system. These tasks require a good understanding of the technologies involved and best practices for their implementation. Implementing API involves complex data exchange mechanisms, working with databases requires careful management to avoid data loss or corruption, and integrating Google authentication requires careful security considerations. However, these features can greatly enhance website functionality and security when executed with careful planning.
 
 ## Accomplishments that we're proud of
 

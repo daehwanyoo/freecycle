@@ -422,6 +422,7 @@ Featured Products
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  font-size: 10.052rem;
 }
 .title h2 {
   margin-bottom: 0;
@@ -631,7 +632,7 @@ Products Page
   margin: 0.25em 0;
   padding: 0.25rem;
   text-transform: capitalize;
-  background: transparent;
+  background: transparent;  
   border-color: transparent;
   letter-spacing: var(--letterSpacing);
   color: var(--grey-500);
