@@ -1,39 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta charset="UTF-8">
-	<title>Free Cycle - Landing Page</title>
-	<link rel="stylesheet" href="index.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<a href="login.html" class="logo">Free Cycle♻️</a>
-			<ul>
-				<li><a href="mailto:jlinaresorihuela@wccnet.edu?subject=Lets Make a Trade">Contact Us</a></li>
-				<li><a href="login.html">Login</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="hero">
-			<h1>Welcome to Free Cycle!</h1>
-			<p>"Our purpose is to build a sustainable and interconnected community by promoting the exchange and reuse of goods. We aim to reduce waste and conserve resources by facilitating the trading of goods between individuals in our community. Through our platform, we seek to inspire our community to embrace a circular economy that prioritizes reuse and recycling. Our goal is to foster a strong and collaborative community that values sustainability, and leads the way in creating a healthier planet for generations to come."
-				The community resources are conserved and waste is minimized through the exchange and reuse of goods. We  are building a strong and interconnected community that values sustainability and takes action to create a healthier planet.
-		.</p>
-		</section>
-		<section class="call-to-action">
-			<h2>Join Our Community Today!</h2>
-			<a href="login.html" class="btn btn-primary">Sign Up Now!</a>
-		</section>
-		<div class="image-container">
-		<img src="image3.png" alt="Description of picture1">
-		<img src="image4.png" alt="Description of picture2">
-		<img src="image5.png" alt="Description of picture3">
-	</div>
-	</main>
-	
 
-</body>
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Free Cycle</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div>
+                <a href="#" class="nav__logo">Free Cycle</a>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Sustainability, Collaboration, Reuse, Community, Circular economy</span>
+                        <h1 class="home__data-title">Swap for <br> Community, <br>Environment, <br> and by Yourself</br></h1>
+                        <a href="login.html" class="button">Sign in</a>
+                    </div>
+                </div>
+            </section>  
+            <section class="experience section">
+                <h2 class="section__title">Our purpose is to build a sustainable and interconnected community by<br>
+					 promoting the exchange and reuse of goods</h2>
+                
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Year <br> Experience</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">75</h2>
+                            <span class="experience__description">Complete <br> tours</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Tourist <br> Destination</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/image4.png" alt="" class="experience__img-one">
+                        </div>
+                        <div class="experience__overlay">
+                            <img src="assets/img/image5.png" alt="" class="experience__img-two">
+                        </div>
+                        <div class="experience__overlay">
+                            <img src="assets/img/image3.png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            
+
+        
+        
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Free Cycle</h3>
+                        <p class="footer__description">reduce waste and conserve resources<br>
+                            embrace a circular economy that <br>
+                            prioritizes reuse and recycling.</p>
+
+                    </div>
+
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="mailto:jlinaresorihuela@wccnet.edu?subject=Lets Make a Trade" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 Free Cycle. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+        <!--=============== SCROLL REVEAL ===========-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
