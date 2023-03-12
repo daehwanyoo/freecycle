@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geocode API Example</title>
+</head>
+<body>
+	<label for="zipCode">Enter Zip Code:</label>
+	<input type="text" id="zipCode">
+	<button onclick="showCounty()"><a href="category.html">Enter</a></button>
+
+	<div id="county"></div>
+
+	<script>
+		async function getCountyFromZip(zipCode) {
+			const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${zipCode}&key=YOUR_API_KEY`;
+			const response = await fetch(url);
+			const data = await response.json();
+			const county = data.results[0].address_components.find(component => component.types.includes('administrative_area_level_2')).long_name;
+			return county;
+		}
+
+		async function showCounty() {
+			const zipCode = document.getElementById("zipCode").value;
+			const county = await getCountyFromZip(zipCode);
+			document.getElementById("county").innerHTML = `County: ${county}`;
+			window.location.href = "anotherPage.html";
+		}
+	</script>
+</body>
+</html>
