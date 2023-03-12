@@ -58,6 +58,9 @@
   --img-scale: scale(1.1);
 }
 
+*{
+  font-size: large;
+}
 @media screen and (min-width: 968px) {
   :root {
     --biggest-font-size: 4rem;
@@ -211,6 +214,7 @@ input {
 .nav__logo,
 .nav__toggle {
   color: var(--white-color);
+  font-size: 28px;
 }
 
 .nav__logo {

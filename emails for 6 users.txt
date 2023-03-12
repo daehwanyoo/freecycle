@@ -1,0 +1,11 @@
+<p class="seller"> <a href="mailto:johndoe@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: John Doe</a></p>
+
+<p class="seller"> <a href="mailto:janesmith@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: Jane Smith</a></p>
+
+<p class="seller"> <a href="mailto:bobjohnson@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: Bob Johnson</a></p>
+
+<p class="seller"> <a href="mailto:harleystan@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: Harley Stan</a></p>
+
+<p class="seller"> <a href="mailto:coppersmith@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: Copper Smit</a></p>
+
+<p class="seller"> <a href="mailto:miketailor@gmail.com?subject=Lets Make a Trade" class="footer__link">Sold by: Mike Tailor</a></p>
