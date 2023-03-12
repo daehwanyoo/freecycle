@@ -1,6 +1,6 @@
 const users = [
-	{email: 'newuser1@gmail.com', password: '123'},
-	{email: 'newuser2@gmail.com', password: '234'}
+	{email: 'user1@gmail.com', password: '123'},
+	{email: 'user2@gmail.com', password: '234'}
 ];
 
 const signupBtn = document.getElementById('signup-btn');
@@ -44,5 +44,5 @@ createBtn.addEventListener('click', function(event) {
 	users.push({email, password});
 
 	alert('Account created successfully!');
-	// Redirect to login page
+	window.location.href = 'landing.html';
 });

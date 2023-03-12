@@ -32,9 +32,11 @@ loginBtn.addEventListener('click', function(event) {
 	});
 
 	if (userExists) {
-		alert('Login successful!');
+		//alert('Login successful!');
 		window.location.href = 'landing.html';
-	} else {
+	}
+
+     else {
 		const signup = confirm('User not found. Do you want to sign up?');
 		if (signup) {
 			// Redirect to sign up page
