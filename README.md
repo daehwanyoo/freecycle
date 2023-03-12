@@ -12,6 +12,7 @@ This website builds an environment where users can exchange goods within the fol
 FreeCycle's mission is to make create a better and healthier future. We believe in "Small solutions to big problems". Communities trading and working together will drastically reduce the waste communities produced, which will create an interconnected community that aims to reduce waste and conserve resources.
 
 ## How we built it
+Our team was able to build this website with a combination of different programming languages to make it functional and visually appealing. We used JavaScript is used to add interactivity and functionality to the website, such as dynamic elements and user input. We used HTML as the main frame for our code. Lastly, we used CSS for adding style and fromatting to web pages. We tried to hosting our website with Domain.com, but we decided to host it instead with Github.
 
 ## Challenges we ran into
 We faced many challenges while creating Free Cycle. Our main challenge were implementing API, using a database on a website, and integrating a Google authentication system. These tasks require a good understanding of the technologies involved and best practices for their implementation. Implementing API involves complex data exchange mechanisms, working with databases requires careful management to avoid data loss or corruption, and integrating Google authentication requires careful security considerations. However, these features can greatly enhance website functionality and security when executed with careful planning.
@@ -20,4 +21,4 @@ We faced many challenges while creating Free Cycle. Our main challenge were impl
 
 ## What we learned
 
-## What's next?
+## What's next for FreeCycle
