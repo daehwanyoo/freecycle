@@ -44,5 +44,5 @@ createBtn.addEventListener('click', function(event) {
 	users.push({email, password});
 
 	alert('Account created successfully!');
-	window.location.href = 'landing.html';
+	window.location.href = 'zip.html';
 });
