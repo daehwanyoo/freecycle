@@ -8,7 +8,7 @@ Our purpose is to build a sustainable and interconnected community by promoting 
 ## What it does
 This website builds an environment where users can exchange goods within the following categories: Electronics & Media, Home & Garden, Clothing, Shoes & Accessories, Baby & Kids, Video Games, Sports & Outdoors, Collectibles & Art, Pet Supplies, Health & Beauty, and Tools & Equipment. Our users will use FreeCycle to access other community members trying to exchange goods within the same ZIP code.
 
-##Why only the same ZIP code?
+## Why only the same ZIP code
 FreeCycle's mission is to make create a better and healthier future. We believe in "Small solutions to big problems". Communities trading and working together will drastically reduce the waste communities produced, which will create an interconnected community that aims to reduce waste and conserve resources.
 
 ## How we built it
