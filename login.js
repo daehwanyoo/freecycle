@@ -33,7 +33,7 @@ loginBtn.addEventListener('click', function(event) {
 
 	if (userExists) {
 		//alert('Login successful!');
-		window.location.href = 'zip.html';
+		window.location.href = 'category.html';
 	}
 
      else {
